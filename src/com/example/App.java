@@ -1,9 +1,9 @@
 package com.example;
 
 import com.example.annotations.Test;
-
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+
 
 public class App {
     private String name;
@@ -24,7 +24,7 @@ public class App {
             if (m.getAnnotation(Test.class) != null) {
                 System.out.println(m);
 
-                m.invoke(first);
+                m.invoke(second);
             }
         }
     }
@@ -34,7 +34,6 @@ public class App {
     public void method1() {
         System.out.println("running method1() in instance " + name);
     }
-
 
     public void method2() {
         System.out.println("running method2() in instance " + name);
