@@ -7,17 +7,24 @@ public class FinallyTest {
 
     private static int hello()  {
 
+        Throwable ee = null;
+
         try {
             System.out.println("hello body");
 //            return 0;
             throw new MyException("hello");
-//        }
-// catch( MyException me) {
+        } catch (MyException me) {
+            ee = me;
+            throw me;
 //            throw  new RuntimeException();
         } finally {
             System.out.println("hello finally");
 //                return 4;
-            throw new OutOfMemoryError("sorry...");
+            OutOfMemoryError oume = new OutOfMemoryError();
+            if (ee != null) {
+                oume.addSuppressed(ee);
+            }
+            throw oume;
         }
 
     }

@@ -8,12 +8,18 @@ public class AutoClosableTest {
 
 
 
-    public static void main(String[] args) throws MyException {
-        try (MyResource r = new MyResource()) {
+    public static void main(String[] args) {
+        MyResource r = new MyResource();
+
+        try (r) {
             System.out.println("dolgoz, dolgoz: " + r.getMyName());
             throw new RuntimeException("hello, from exception");
         } catch (MyException ex) {
             System.out.println("MyException occured");
+        } catch (Throwable th){
+            throw th;
+        } finally {
+            System.out.println("in finally block");
         }
         System.out.println("after try");
 //
