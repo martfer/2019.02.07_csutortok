@@ -12,17 +12,16 @@ public class ExceptionTest {
         throw new IdNotFoundException(id);
     }
 
-    public static void main(String[] args) throws MyException, IOException {
+    public static void main(String[] args) {
         try {
             if (new Random().nextBoolean()) {
-                hello(222L);
+                hello(123L);
             }
             Files.newInputStream(Paths.get("/tmpppp"), StandardOpenOption.CREATE);
         } catch (IdNotFoundException ex) {
             System.out.println("id not found: " + ex.getId());
         } catch (MyException | IOException ex) {
             ex.printStackTrace();
-            throw ex;
         } finally {
             System.out.println("finally");
         }
