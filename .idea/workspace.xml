@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87c330b4-3734-4e0a-b585-3d829c3971d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nemzeti_dal.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/collections/WordStat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/practise/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/practise/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/practise/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/practise/InterfaceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/practise/InterfaceDemoChild.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/practise/InterfaceListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/practise/InterfaceListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/practise/WrapperDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/practise/WrapperDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nemzeti_dal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nemzeti_dal.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/collections/WordStat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/collections/WordStat.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +35,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/collections/WordStat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="134">
+              <caret line="42" column="61" lean-forward="true" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1481#1498#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nemzeti_dal.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -105,6 +107,9 @@
         <option value="$PROJECT_DIR$/src/com/example/practise/InterfaceDemoChild.java" />
         <option value="$PROJECT_DIR$/src/com/example/practise/InterfaceListDemo.java" />
         <option value="$PROJECT_DIR$/src/com/example/practise/WrapperDemo.java" />
+        <option value="$PROJECT_DIR$/nemzeti_dal.txt" />
+        <option value="$PROJECT_DIR$/src/com/example/collections/MyEntry.java" />
+        <option value="$PROJECT_DIR$/src/com/example/collections/MyComparator.java" />
         <option value="$PROJECT_DIR$/src/com/example/collections/WordStat.java" />
       </list>
     </option>
@@ -157,7 +162,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550161469048" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550165692149" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -262,7 +267,7 @@
       <workItem from="1549543833474" duration="1930000" />
       <workItem from="1549794784344" duration="5632000" />
       <workItem from="1550063599174" duration="111000" />
-      <workItem from="1550063761856" duration="19629000" />
+      <workItem from="1550063761856" duration="23478000" />
     </task>
     <task id="LOCAL-00001" summary="@Test demo">
       <created>1549544727064</created>
@@ -320,18 +325,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550148404401</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="practise package&#10;- interface inheritance&#10;- interface demo&#10;- wrapper classes demo">
+      <created>1550161680233</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1550161680233</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39695000" />
+    <option name="totallyTimeSpent" value="43544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1776" y="23" width="1583" height="1001" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49509802" visible="true" weight="0.15574302" />
-      <window_info id="Structure" order="1" sideWeight="0.50490195" side_tool="true" visible="true" weight="0.15574302" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49436393" visible="true" weight="0.14341336" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.5056361" side_tool="true" visible="true" weight="0.14341336" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -339,15 +351,15 @@
       <window_info id="Favorites" order="6" sideWeight="0.50163937" side_tool="true" weight="0.22193381" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837768" weight="0.20792079" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49772874" visible="true" weight="0.31683168" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49967554" weight="0.4268427" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49772874" visible="true" weight="0.32673267" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50227123" side_tool="true" visible="true" weight="0.32673267" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49772874" weight="0.24092409" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50227123" side_tool="true" weight="0.20792079" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4990266" weight="0.21122113" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49967554" weight="0.32893288" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -412,17 +424,10 @@
     <MESSAGE value="added IO exercise, tokenise tax number" />
     <MESSAGE value="added text input file" />
     <MESSAGE value="List interfaces demo and boxing unboxing code" />
-    <option name="LAST_COMMIT_MESSAGE" value="List interfaces demo and boxing unboxing code" />
+    <MESSAGE value="practise package&#10;- interface inheritance&#10;- interface demo&#10;- wrapper classes demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="practise package&#10;- interface inheritance&#10;- interface demo&#10;- wrapper classes demo" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/exceptions/App.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/IllegalArgumentException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -646,13 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="1047" column="32" selection-start-line="1047" selection-start-column="32" selection-end-line="1047" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/2019.02.07_csutortok/WrapperDemo.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -774,17 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="4308" column="30" selection-start-line="4308" selection-start-column="30" selection-end-line="4308" selection-end-column="30" />
-          <folding>
-            <element signature="e#201688#201689#0" expanded="true" />
-            <element signature="e#201729#201730#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/practise/WrapperDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -817,12 +804,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/collections/WordStat.java">
+    <entry file="file://$PROJECT_DIR$/nemzeti_dal.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="45">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/collections/MyEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/collections/MyComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" selection-start-line="5" selection-end-line="13" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="1462" column="22" selection-start-line="1462" selection-start-column="22" selection-end-line="1462" selection-end-column="22" />
+          <folding>
+            <element signature="e#57807#57808#0" expanded="true" />
+            <element signature="e#57863#57864#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="1433" column="27" selection-start-line="1433" selection-start-column="27" selection-end-line="1433" selection-end-column="27" />
+          <folding>
+            <element signature="e#201688#201689#0" expanded="true" />
+            <element signature="e#201729#201730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="519" column="26" lean-forward="true" selection-start-line="519" selection-start-column="26" selection-end-line="519" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/collections/WordStat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="42" column="61" lean-forward="true" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1481#1498#0" expanded="true" />
           </folding>
         </state>
       </provider>
