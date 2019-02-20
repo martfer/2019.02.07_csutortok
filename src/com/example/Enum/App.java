@@ -16,6 +16,7 @@ public class App {
 
 
    }
+        @SuppressWarnings("unused")
         static public boolean testEnum(ColorsTypeSafePattern c) {
             return c.getWeight() > 5;
         }
