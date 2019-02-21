@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87c330b4-3734-4e0a-b585-3d829c3971d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/example/nested/lab/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/nested/lab/AddressBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/nested/lab/TestBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/generics/basics/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/generics/basics/Wrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/generics/wildcards/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/generics/wildcards/Engineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/generics/wildcards/GenericsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/generics/wildcards/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/generics/wildcards/MyConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/generics/wildcards/PricipalEngineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/nested/lab/inner/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/nested/lab/inner/TestBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/nested/lab/staticnested/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/nested/lab/staticnested/TestBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/nested/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/nested/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/nested/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/nested/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/nested/lab/TestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/nested/lab/TestBuilder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,97 +34,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/nested/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/nested/Enclosing.java">
+        <entry file="file://$PROJECT_DIR$/src/com/example/generics/basics/Wrapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/nested/Container.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
               <folding>
-                <element signature="e#782#783#0" expanded="true" />
-                <element signature="e#840#841#0" expanded="true" />
-                <element signature="e#873#874#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/nested/lab/Address.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="5" selection-start-line="5" selection-end-line="10" selection-end-column="26" />
-              <folding>
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#738#739#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#928#929#0" expanded="true" />
-                <element signature="e#976#977#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
-                <element signature="e#1050#1051#0" expanded="true" />
-                <element signature="e#1080#1081#0" expanded="true" />
-                <element signature="e#1126#1127#0" expanded="true" />
-                <element signature="e#1164#1165#0" expanded="true" />
-                <element signature="e#1195#1196#0" expanded="true" />
-                <element signature="e#1222#1223#0" expanded="true" />
-                <element signature="e#1262#1263#0" expanded="true" />
-                <element signature="e#1294#1295#0" expanded="true" />
-                <element signature="e#1324#1325#0" expanded="true" />
-                <element signature="e#1350#1351#0" expanded="true" />
-                <element signature="e#1388#1389#0" expanded="true" />
-                <element signature="e#1418#1419#0" expanded="true" />
-                <element signature="e#1451#1452#0" expanded="true" />
-                <element signature="e#1480#1481#0" expanded="true" />
-                <element signature="e#1524#1525#0" expanded="true" />
-                <element signature="e#1560#1561#0" expanded="true" />
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/nested/lab/TestBuilder.java">
+        <entry file="file://$PROJECT_DIR$/src/com/example/generics/basics/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-              <folding>
-                <element signature="e#716#799#0" />
-              </folding>
+            <state relative-caret-position="425">
+              <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/nested/lab/AddressBuilder.java">
+        <entry file="file://$PROJECT_DIR$/src/com/example/generics/lab01/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="408">
+              <caret line="25" column="23" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="25" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -146,18 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/exceptions/ExceptionTest.java" />
-        <option value="$PROJECT_DIR$/src/com/example/exceptions/IdNotFoundException.java" />
-        <option value="$PROJECT_DIR$/src/com/example/exceptions/basics/IdNotFoundException.java" />
-        <option value="$PROJECT_DIR$/src/com/example/exceptions/basics/MyException.java" />
-        <option value="$PROJECT_DIR$/src/com/example/exceptions/FinallyTest.java" />
-        <option value="$PROJECT_DIR$/src/com/example/exceptions/Test.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="/usr/local/bin/googlepdf" />
-        <option value="$PROJECT_DIR$/src/com/example/exceptions/MyResource.java" />
-        <option value="$PROJECT_DIR$/out/production/adoszamok.txt" />
-        <option value="$PROJECT_DIR$/src/com/example/io/ScannerDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/example/exceptions/AutoClosableTest.java" />
         <option value="$PROJECT_DIR$/src/com/example/exceptions/basics/ExceptionTest.java" />
         <option value="$PROJECT_DIR$/src/WrapperDemo.java" />
         <option value="$PROJECT_DIR$/src/InterfaceListDemo.java" />
@@ -195,14 +129,32 @@
         <option value="$PROJECT_DIR$/src/com/example/nested/Address.java" />
         <option value="$PROJECT_DIR$/src/com/example/nested/lab/Address.java" />
         <option value="$PROJECT_DIR$/src/com/example/nested/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/example/nested/Container.java" />
         <option value="$PROJECT_DIR$/src/com/example/nested/lab/TestBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/example/nested/Container.java" />
+        <option value="$PROJECT_DIR$/src/com/example/generics/Wrapper.java" />
+        <option value="$PROJECT_DIR$/src/com/example/generics/App.java" />
+        <option value="$PROJECT_DIR$/src/com/example/generics/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/example/generics/wildcards/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/example/generics/wildcards/MyEngineer.java" />
+        <option value="$PROJECT_DIR$/src/com/example/generics/wildcards/PricipalEngineer.java" />
+        <option value="$PROJECT_DIR$/src/com/example/nested/lab/staticnested/AddressBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/example/nested/lab/staticnested/Address.java" />
+        <option value="$PROJECT_DIR$/src/com/example/nested/lab/inner/TestBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/example/nested/lab/inner/Address.java" />
+        <option value="$PROJECT_DIR$/src/com/example/generics/basics/Wrapper.java" />
+        <option value="$PROJECT_DIR$/src/com/example/generics/basics/App.java" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1782" />
-    <option name="y" value="54" />
+    <option name="x" value="-1720" />
+    <option name="y" value="64" />
     <option name="width" value="1583" />
     <option name="height" value="1001" />
   </component>
@@ -224,6 +176,41 @@
             <path>
               <item name="2019.02.07_csutortok" type="b2602c69:ProjectViewProjectNode" />
               <item name="2019.02.07_csutortok" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019.02.07_csutortok" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019.02.07_csutortok" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019.02.07_csutortok" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019.02.07_csutortok" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="2019.02.07_csutortok" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019.02.07_csutortok" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019.02.07_csutortok" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="2019.02.07_csutortok" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019.02.07_csutortok" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019.02.07_csutortok" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="2019.02.07_csutortok" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019.02.07_csutortok" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019.02.07_csutortok" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -237,15 +224,23 @@
               <item name="2019.02.07_csutortok" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="nested" type="462c0819:PsiDirectoryNode" />
+              <item name="generics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2019.02.07_csutortok" type="b2602c69:ProjectViewProjectNode" />
               <item name="2019.02.07_csutortok" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="nested" type="462c0819:PsiDirectoryNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
+              <item name="generics" type="462c0819:PsiDirectoryNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019.02.07_csutortok" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019.02.07_csutortok" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="generics" type="462c0819:PsiDirectoryNode" />
+              <item name="lab01" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -256,7 +251,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550680655127" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550758274186" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -269,15 +264,16 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.nested.lab.staticnested" />
       <recent name="com.example.Enum" />
       <recent name="com.example.generics.lab01" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/example/nested/lab/inner" />
+      <recent name="$PROJECT_DIR$/src/com/example/nested/lab/staticnested" />
+      <recent name="$PROJECT_DIR$/src/com/example/generics" />
       <recent name="$PROJECT_DIR$/src/com/example/nested/lab" />
       <recent name="$PROJECT_DIR$/src/com/example/nested" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/com/example/generics/lab03" />
-      <recent name="$PROJECT_DIR$/src/com/example/generics/lab02/second_approach" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -292,13 +288,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.App (1)">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Enum.App" />
       <module name="2019.02.07_csutortok" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.Enum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.generics.basics.App" />
+      <module name="2019.02.07_csutortok" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.generics.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -319,12 +328,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordStat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.collections.WordStat" />
+    <configuration name="TestBuilder (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.nested.lab.inner.TestBuilder" />
       <module name="2019.02.07_csutortok" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.collections.*" />
+          <option name="PATTERN" value="com.example.nested.lab.inner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,33 +341,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordStatNonGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.collections.WordStatNonGeneric" />
+    <configuration name="TestBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.nested.lab.TestBuilder" />
       <module name="2019.02.07_csutortok" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.collections.*" />
+          <option name="PATTERN" value="com.example.nested.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WrapperDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.practise.WrapperDemo" />
-      <module name="2019.02.07_csutortok" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.TestBuilder (1)" />
+        <item itemvalue="Application.TestBuilder" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.WordStatNonGeneric" />
-        <item itemvalue="Application.WordStat" />
-        <item itemvalue="Application.WrapperDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +381,7 @@
       <workItem from="1550345028495" duration="4655000" />
       <workItem from="1550502699686" duration="3015000" />
       <workItem from="1550656029750" duration="10539000" />
-      <workItem from="1550672587136" duration="5436000" />
+      <workItem from="1550672587136" duration="17629000" />
     </task>
     <task id="LOCAL-00001" summary="@Test demo">
       <created>1549544727064</created>
@@ -472,14 +474,22 @@
       <option name="project" value="LOCAL" />
       <updated>1550677179678</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Builder lab">
+      <created>1550681673114</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1550681673114</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70679000" />
+    <option name="totallyTimeSpent" value="82872000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1782" y="54" width="1583" height="1001" extended-state="0" />
+    <frame x="-1720" y="64" width="1583" height="1001" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48765433" visible="true" weight="0.1486048" />
       <window_info id="Structure" order="1" sideWeight="0.5123457" side_tool="true" visible="true" weight="0.1486048" />
@@ -489,7 +499,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50885665" side_tool="true" weight="0.14730695" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32893288" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49772874" visible="true" weight="0.28712872" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49967554" weight="0.4268427" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -497,7 +507,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49772874" weight="0.05610561" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49772874" weight="0.3872387" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50227123" side_tool="true" weight="0.20792079" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4990266" weight="0.21122113" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49967554" weight="0.32893288" />
@@ -508,7 +518,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32965606" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -568,168 +578,22 @@
     <MESSAGE value="Added enum examples, demo" />
     <MESSAGE value="True meaning of Protected" />
     <MESSAGE value="Iterator example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iterator example" />
+    <MESSAGE value="Builder lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Builder lab" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/out/production/2019.02.07_csutortok/com/example/generics/Wrapper.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="519" column="26" lean-forward="true" selection-start-line="519" selection-start-column="26" selection-end-line="519" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="503" column="17" selection-start-line="503" selection-start-column="17" selection-end-line="503" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nemzeti_dal.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="5217" column="8" selection-start-line="5217" selection-start-column="8" selection-end-line="5217" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="2734" column="18" selection-start-line="2734" selection-start-column="18" selection-end-line="2734" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../GEAcademy4/WordStat/src/main/java/com/example/WordStat_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="52" column="9" selection-start-line="49" selection-start-column="16" selection-end-line="55" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/collections/SetDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2635">
-          <caret line="184" column="35" selection-start-line="184" selection-start-column="35" selection-end-line="184" selection-end-column="35" />
-          <folding>
-            <element signature="e#8781#8782#0" expanded="true" />
-            <element signature="e#8834#8835#0" expanded="true" />
-            <element signature="e#15069#15070#0" expanded="true" />
-            <element signature="e#15118#15119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23766">
-          <caret line="1463" column="49" selection-start-line="1463" selection-start-column="30" selection-end-line="1463" selection-end-column="49" />
-          <folding>
-            <element signature="e#57807#57808#0" expanded="true" />
-            <element signature="e#57863#57864#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23375">
-          <caret line="1433" column="27" selection-start-line="1433" selection-start-column="27" selection-end-line="1433" selection-end-column="27" />
-          <folding>
-            <element signature="e#201688#201689#0" expanded="true" />
-            <element signature="e#201729#201730#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/collections/WordStatNonGeneric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2203#2204#0" expanded="true" />
-            <element signature="e#2241#2242#0" expanded="true" />
-            <element signature="e#2351#2352#0" expanded="true" />
-            <element signature="e#2401#2402#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/generics/lab02/second_approach/Test.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/generics/lab02/first_approach/MyCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/generics/lab02/second_approach/MyCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/generics/lab02/first_approach/MyCollectionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/generics/lab02/second_approach/MyCollectionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/generics/lab03/permit/Apple.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/generics/lab03/permit/Fruit.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/generics/lab03/permit/Orange.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/generics/lab03/prohibit/Apple.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -743,13 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/generics/lab01/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="25" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -889,13 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/nested/lab/AddressBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/nested/Enclosing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -903,35 +753,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/nested/Container.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-          <folding>
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/nested/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/nested/lab/Address.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="5" selection-start-line="5" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="10" selection-end-column="26" />
           <folding>
             <element signature="e#261#262#0" expanded="true" />
             <element signature="e#304#305#0" expanded="true" />
@@ -963,13 +788,260 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/2019.02.07_csutortok/com/example/nested/ContainerIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#609#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/2019.02.07_csutortok/com/example/nested/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#1120#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/nested/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+          <folding>
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
+            <element signature="e#1261#1262#0" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
+            <element signature="e#1355#1356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/nested/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/2019.02.07_csutortok/com/example/generics/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/2019.02.07_csutortok/com/example/generics/Wrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/generics/wildcards/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/generics/wildcards/Engineer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/generics/wildcards/GenericsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/generics/wildcards/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/generics/wildcards/MyConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/generics/wildcards/PricipalEngineer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/nested/lab/AddressBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/nested/lab/TestBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/nested/lab/staticnested/AddressBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/nested/lab/staticnested/TestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/nested/lab/staticnested/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
-            <element signature="e#716#799#0" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1552#1553#0" expanded="true" />
+            <element signature="e#1627#1628#0" expanded="true" />
+            <element signature="e#1688#1689#0" expanded="true" />
+            <element signature="e#1726#1727#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/nested/lab/inner/AddressBuilder.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/2019.02.07_csutortok/com/example/nested/lab/inner/Address.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567">
+          <folding>
+            <element signature="e#0#2259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/nested/lab/inner/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-347">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/nested/lab/inner/TestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1816">
+          <caret line="136" column="25" lean-forward="true" selection-start-line="136" selection-start-column="25" selection-end-line="136" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/generics/lab01/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="25" column="23" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/generics/basics/Wrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/generics/basics/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="42" />
         </state>
       </provider>
     </entry>

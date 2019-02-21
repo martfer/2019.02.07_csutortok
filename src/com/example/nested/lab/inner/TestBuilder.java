@@ -1,8 +1,11 @@
-package com.example.nested.lab;
+package com.example.nested.lab.inner;
+
+
 
 public class TestBuilder {
 
     public static void main(String[] args) {
+
 
 
         Address myAddress = Address.builder().

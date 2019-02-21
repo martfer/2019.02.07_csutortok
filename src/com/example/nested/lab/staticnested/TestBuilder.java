@@ -1,4 +1,6 @@
-package com.example.nested.lab;
+package com.example.nested.lab.staticnested;
+
+import com.example.nested.lab.Address;
 
 public class TestBuilder {
 

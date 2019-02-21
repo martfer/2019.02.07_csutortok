@@ -30,11 +30,13 @@ public class Container implements Iterable {
 
 
         return new Iterator() {
-            private int cnt = 0;
+            private int cnt = i;
+
             @Override
             public boolean hasNext() {
                 return cnt < values.length;
             }
+
             public void doIt() {
                 System.out.println("WWWWWWWWWWSW");
             }
@@ -48,17 +50,19 @@ public class Container implements Iterable {
 
     }
 
-//    private class ContainerIterator implements Iterator {
-//        private int cnt = 0;
-//
-//        @Override
-//        public boolean hasNext() {
-//            return cnt < values.length;
-//        }
-//
-//        @Override
-//        public Object next() {
-//            return values[cnt++];
-//        }
-//    }
+    private class ContainerIterator implements Iterator {
+        private int cnt = 0;
+
+
+
+        @Override
+        public boolean hasNext() {
+            return cnt < values.length;
+        }
+
+        @Override
+        public Object next() {
+            return values[cnt++];
+        }
+    }
 }
