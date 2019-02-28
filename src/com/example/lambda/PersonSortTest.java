@@ -1,6 +1,7 @@
 package com.example.lambda;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 import static com.example.lambda.Person.Gender.FEMALE;
@@ -11,7 +12,11 @@ public class PersonSortTest {
     public static void main(String[] args) {
         List<Person> pl = createPeopleList();
 
-        pl.sort((o1, o2) -> Integer.compare(o1.getAge(),o2.getAge()));
+        Comparator<Person> cmp= (o1, o2) -> Integer.compare(o1.getAge(),o2.getAge());
+        Comparator<Person> thenCmp = cmp.thenComparing(  (o1, o2) -> o1.getName().compareTo(o2.getName())  );
+
+
+        pl.sort( (o1, o2) -> Integer.compare(o1.getAge(),o2.getAge()) );
 
     }
 
