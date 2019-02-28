@@ -11,7 +11,11 @@ public class MethodReferenceDemo {
 
         String[] input = {"Hello", "1", "World", "lLlL"};
 
+        System.out.println(Arrays.toString(stringArrayMapper(input, String::length)));
 
+        System.out.println(Arrays.toString(stringArrayMapper(input, String::hashCode)));
+
+        System.out.println(Arrays.toString(stringArrayMapper(input, MethodReferenceDemo::lsInString)));
 
     }
 
