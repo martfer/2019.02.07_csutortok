@@ -1,9 +1,12 @@
 package com.example.generics.lab02.first_approach;
 
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
 public class MyCollectionImpl<E> implements MyCollection<E> {
+    private List<E> values;
     // implement this class so it passes the tests in Test class
 
     public MyCollectionImpl(List<E> values) {

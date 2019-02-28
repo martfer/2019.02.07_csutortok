@@ -17,20 +17,25 @@ public class GenericsDemo {
         
         List<Engineer>leng = new ArrayList<>();
         leng.add(new Engineer());
-        leng.add(new Engineer());
+        leng.add(new PricipalEngineer());
+
+        List<PricipalEngineer> lpe = new ArrayList<>();
+        lpe.add(new PricipalEngineer());
+
         
         
 //        List<Employee> lue1 = leng;
         
-//        List<? extends Employee>lue = leng;
-//        Employee emp = lue.get(0);
-//        lue.add(null);
-//        System.out.println("ob: " + emp);
-//        
-//        List<? super Engineer>lse = lemp;
-//        lse.add(new Engineer());
-//        //lse.add(new Manager());
-//        lse.add(new PricipalEngineer());
+        List<? extends Employee>lue = leng;
+        Employee emp = lue.get(0);
+        lue.add(null);
+        System.out.println("ob: " + emp);
+
+
+        List<? super Engineer>lse = lemp;
+        lse.add(new Engineer());
+        //lse.add(new Manager());
+        lse.add(new PricipalEngineer());
 
         lemp.addAll(lm);
         lemp.addAll(leng);
@@ -51,4 +56,5 @@ public class GenericsDemo {
         System.out.println(Arrays.toString(empArr));
         
     }
+
 }

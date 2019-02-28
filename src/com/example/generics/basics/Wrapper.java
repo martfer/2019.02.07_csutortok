@@ -1,6 +1,6 @@
 package com.example.generics.basics;
 
-public class Wrapper<E> implements Comparable<E> {
+public class Wrapper<E> implements Comparable<Wrapper<E>> {
     private E value;
 
     public Wrapper(E value) {
@@ -19,9 +19,8 @@ public class Wrapper<E> implements Comparable<E> {
         return (T)o;
     }
 
-
     @Override
-    public int compareTo(E o) {
+    public int compareTo(Wrapper o) {
         return 0;
     }
 }

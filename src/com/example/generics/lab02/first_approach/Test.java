@@ -4,8 +4,9 @@ import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
+
         Object obj = "prohibit";
-        MyCollection<Object> objs = new MyCollectionImpl<>(List.of("prohibit", 2, 3.14, 4));
+        MyCollection<Object> objs = new MyCollectionImpl<Object>(List.of("prohibit", 2, 3.14, 4));
         System.out.println("objs = " + objs);
         System.out.println("objs.contains(obj) = " + objs.contains(obj));
 

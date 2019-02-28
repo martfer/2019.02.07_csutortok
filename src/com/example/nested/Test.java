@@ -13,7 +13,7 @@ public class Test {
 //            System.out.println(method);
 //        }
 
-        Method method = iterator.getClass().getMethod("doIt");
+        Method method = iterator.getClass().getMethod("stringArrayMapper");
         method.invoke(iterator);
 
         System.out.println(iterator.getClass());
