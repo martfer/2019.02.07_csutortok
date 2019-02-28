@@ -11,6 +11,8 @@ public class PersonSortTest {
     public static void main(String[] args) {
         List<Person> pl = createPeopleList();
 
+        pl.sort((o1, o2) -> Integer.compare(o1.getAge(),o2.getAge()));
+
     }
 
 
